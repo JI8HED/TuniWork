@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#615378"
+    android:scrollbarSize="14dp">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="398dp"
+        android:layout_height="593dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:background="@drawable/background_puple"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.93">
+
+        <EditText
+            android:id="@+id/editTextTextName"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="24dp"
+            android:background="@drawable/backgrount_white"
+            android:drawablePadding="16dp"
+            android:elegantTextHeight="false"
+            android:ems="10"
+            android:hint="Contunue with facebook"
+            android:inputType="textPersonName"
+            android:padding="16dp"
+            android:shadowColor="#000000"
+            android:drawableStart="@android:drawable/ic_menu_myplaces"
+            android:textColor="#000000" />
+
+        <EditText
+            android:id="@+id/editTextTextName3"
+
+            android:layout_width="match_parent"
+
+            android:layout_height="50dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="24dp"
+            android:background="@drawable/backgrount_white"
+            android:drawablePadding="16dp"
+            android:elegantTextHeight="false"
+            android:ems="10"
+            android:hint="Contunue with Google"
+            android:inputType="textPersonName"
+            android:padding="16dp"
+
+            android:textColor="#000000"
+            android:textColorHighlight="#000000" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="--------------------------------------- or ---------------------------------------------"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="15dp"/>
+
+        <EditText
+            android:id="@+id/editTextTextName2"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="24dp"
+            android:background="@drawable/background_edittext"
+            android:drawableStart="@android:drawable/ic_menu_myplaces"
+            android:drawablePadding="16dp"
+            android:elegantTextHeight="false"
+            android:ems="10"
+            android:hint="Name"
+            android:inputType="textPersonName"
+            android:padding="16dp"
+            android:textColorHint="#FFFFFF" />
+
+        <EditText
+            android:id="@+id/editTextTexEmail"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="24dp"
+            android:background="@drawable/background_edittext"
+            android:drawableStart="@android:drawable/ic_dialog_email"
+            android:drawablePadding="16dp"
+            android:elegantTextHeight="false"
+            android:ems="10"
+            android:hint="Email"
+            android:inputType="textPersonName"
+            android:padding="16dp"
+            android:textColorHint="#FFFFFF" />
+
+        <EditText
+            android:id="@+id/editTextTextPassword"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="24dp"
+            android:background="@drawable/background_edittext"
+            android:drawableStart="?android:attr/fingerprintAuthDrawable"
+            android:drawablePadding="16dp"
+            android:elegantTextHeight="false"
+            android:ems="10"
+            android:hint="Password"
+            android:inputType="textPersonName"
+            android:padding="16dp"
+            android:textColorHint="#FFFFFF" />
+
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <RadioButton
+                android:id="@+id/Client"
+                style="@android:style/Widget.CompoundButton.RadioButton"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="20dp"
+                android:background="@drawable/background_puple"
+                android:text="                             I'm client"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+            <RadioButton
+                android:id="@+id/Frelancer"
+                android:layout_width="match_parent"
+
+                android:layout_height="40dp"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="24dp"
+                android:background="@drawable/background_puple"
+                android:isScrollContainer="false"
+                android:pointerIcon="context_menu"
+                android:text="                             I'm Freelancer"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+
+            <Button
+                android:id="@+id/btn"
+                style="@android:style/Widget"
+                android:layout_width="352dp"
+                android:layout_height="38dp"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="10dp"
+                android:background="@drawable/background_btn"
+                android:text="Create my account"
+                android:textColor="#FE7B72"
+                android:textSize="20dp" />
+        </RadioGroup>
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/singup"
+        android:layout_width="82dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="208dp"
+        android:layout_marginTop="20dp"
+        android:text="Login"
+        android:textColor="#4CAF50"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="103dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="248dp"
+        android:shadowColor="#072908"
+        android:text="TWork"
+        android:textColor="#4CAF50"
+        android:textSize="24sp"
+        android:textStyle="normal|bold|italic"
+        app:layout_constraintEnd_toStartOf="@+id/singup"
+        app:layout_constraintHorizontal_bias="0.161"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.636" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SING UP"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.906"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.696" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
